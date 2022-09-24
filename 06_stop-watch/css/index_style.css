@@ -1,0 +1,45 @@
+ h5 {
+     text-align: center;
+     color: #fff;
+ }
+ 
+ .bigBox {
+     margin-top: 100px;
+     width: 500px;
+     height: 300px;
+     padding: 25px;
+     border-radius: 25px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     position: relative;
+ }
+ 
+ .bigBox h2 {
+     position: absolute;
+     background-color: #000;
+     color: #fff;
+     padding: 15px;
+     border-radius: 25px;
+     top: 0;
+     left: 21%;
+     font-size: 18px;
+ }
+ 
+ .bigBox .NumBox {
+     width: 80%;
+     height: 100%;
+     padding: 25px;
+     margin-right: 20px;
+     border-radius: 25px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 50px;
+     color: #fff;
+ }
+ 
+ .bigBox .controls button {
+     width: 100%;
+     margin: 27px 0;
+ }
